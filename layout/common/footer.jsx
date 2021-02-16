@@ -42,6 +42,9 @@ class Footer extends Component {
                                 dangerouslySetInnerHTML={{ __html: visitorCounterTitle }}></span> : null}
                         </p>
                     </div>
+                    <div class="level-item">
+                        <a href='https://beian.miit.gov.cn'>沪ICP备20002535号-1</a>
+                    </div>
                     <div class="level-end">
                         {Object.keys(links).length ? <div class="field has-addons">
                             {Object.keys(links).map(name => {
